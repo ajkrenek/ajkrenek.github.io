@@ -3117,7 +3117,34 @@ input, select, textarea {
 				display: block;
 				margin: 0 0 1.5em 0;
 				filter: invert(25%) sepia(84%) saturate(5173%) hue-rotate(317deg) brightness(104%) contrast(104%);
+				animation: bgColor 5s infinite linear;
 			}
+				@keyframes bgColor {
+				  12.5% {
+				    filter: invert(25%) sepia(84%) saturate(5173%) hue-rotate(317deg) brightness(104%) contrast(104%);
+				  }
+				  25% {
+				    filter: invert(42%) sepia(100%) saturate(6256%) hue-rotate(294deg) brightness(111%) contrast(139%);
+				  }
+				  37.5% {
+				    filter: invert(9%) sepia(100%) saturate(6603%) hue-rotate(247deg) brightness(98%) contrast(146%);
+				  }
+				  50% {
+				    filter: invert(75%) sepia(39%) saturate(2503%) hue-rotate(91deg) brightness(103%) contrast(104%);
+				  }
+				  62.5% {
+				    filter: invert(36%) sepia(86%) saturate(3927%) hue-rotate(1deg) brightness(101%) contrast(106%);
+				  }
+				  75% {
+				    filter: invert(56%) sepia(86%) saturate(1978%) hue-rotate(359deg) brightness(101%) contrast(103%);
+				  }
+				  87.5% {
+				    filter: invert(92%) sepia(17%) saturate(6065%) hue-rotate(355deg) brightness(101%) contrast(108%);
+				  }
+				  100% {
+				    filter: invert(91%) sepia(17%) saturate(5986%) hue-rotate(303deg) brightness(94%) contrast(100%);
+				  }
+				}
 
 				#header.alt .logo img {
 					display: block;
