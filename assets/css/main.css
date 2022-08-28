@@ -3117,7 +3117,7 @@ input, select, textarea {
 				display: block;
 				margin: 0 0 1.5em 0;
 				filter: invert(25%) sepia(84%) saturate(5173%) hue-rotate(317deg) brightness(104%) contrast(104%);
-				animation: bgColor 5s infinite linear;
+				animation: bgColor 20s infinite linear;
 			}
 				@keyframes bgColor {
 				  12.5% {
