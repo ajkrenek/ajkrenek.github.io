@@ -3106,16 +3106,17 @@ input, select, textarea {
 			}
 
 			#header.alt .logo {
-				-moz-transition: opacity 1.25s ease, -moz-transform 1s ease;
-				-webkit-transition: opacity 1.25s ease, -webkit-transform 1s ease;
-				-ms-transition: opacity 1.25s ease, -ms-transform 1s ease;
-				transition: opacity 1.25s ease, transform 1s ease;
+				-moz-transition: opacity 1.25s ease, -moz-transform 1.5s ease;
+				-webkit-transition: opacity 1.25s ease, -webkit-transform 1.5s ease;
+				-ms-transition: opacity 1.25s ease, -ms-transform 1.5s ease;
+				transition: opacity 1.25s ease, transform 1.5s ease;
 				-moz-transition-delay: 0s;
 				-webkit-transition-delay: 0s;
 				-ms-transition-delay: 0s;
 				transition-delay: 0s;
 				display: block;
 				margin: 0 0 1.5em 0;
+				filter: invert(25%) sepia(84%) saturate(5173%) hue-rotate(317deg) brightness(104%) contrast(104%);
 			}
 
 				#header.alt .logo img {
